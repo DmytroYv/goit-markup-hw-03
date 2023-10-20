@@ -42,7 +42,7 @@ a {
     border-bottom: 1px solid #e7e9fc;
 
 }
-header .container{
+.header .container{
     display: flex;
 }
 .container{
@@ -51,11 +51,11 @@ width: 1158px;
     margin-right: auto;
     padding: 0 15px
 }
-nav{
+.nav{
     display: flex;
     align-items: center;
 }
-nav .links{
+.nav .links{
     display: flex;
     gap: 40px;
 }
@@ -167,6 +167,10 @@ display: flex;
     background: #404BBF;
 }
 
+.title-plan{
+    visibility: hidden;
+}
+
 .section-plan{
     padding: 120px 0;
 }
@@ -220,6 +224,7 @@ display: flex;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         margin-bottom: 72px;
+        text-align: center;
 }
 .our-team-item{
     background: #FFFfff;
@@ -231,22 +236,27 @@ display: flex;
 .section-our-team .title{
     margin-bottom: 8px;
 }
+.section-our-team .text{
+    text-align: center;
+}
 
 
 .section-our-portfolio{
     padding: 120px 0;
 }
 
+.section-our-portfolio .links {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin: 0 200px;
+}
+
 .section-our-portfolio .title-our-portfolio{
     margin-bottom: 72px;
 }
-.section-our-portfolio .links{
-    display: flex;
-        flex-wrap: wrap;
-            column-gap: 24px;
-        row-gap: 48px;
-        margin: 0 200px;
-}
+
 
 .our-portfolio-item{
     background: #FFFfff;
