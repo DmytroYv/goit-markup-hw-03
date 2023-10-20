@@ -31,7 +31,13 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 
@@ -287,10 +293,4 @@ max-width: 264px;
     background-color: #2E2F42;
     padding: 100px 0;
     max-height: 312px;
-}
-ul {
-    list-style: none;
-}
-a{
-    text-decoration: none;
 }
